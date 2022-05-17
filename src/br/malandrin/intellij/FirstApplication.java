@@ -11,9 +11,11 @@ public class FirstApplication {
 
         String fullname = user.getFullname();
         String email = user.getEmail();
+        String username = user.getUsername();
 
         System.out.println("Hello " + fullname);
         System.out.println("An e-mail has been sent to: " + email);
+        System.out.println("Your username: " + username);
 
     }
 }
